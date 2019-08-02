@@ -1757,7 +1757,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 50
-        y: 116
+        y: 132
         width: 137
         height: 32
       isBreakpoint: 0
@@ -1842,8 +1842,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 404.07812
-        y: 224.00781
+        x: 449.07812
+        y: 254.03125
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1916,7 +1916,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 241
-        y: 109.99219
+        y: 125.99219
         width: 130
         height: 32
       isBreakpoint: 0
@@ -1927,7 +1927,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: send event
+        toState: get prefs
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2015,8 +2015,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 413
-        y: 141
+        x: 265
+        y: 216
         width: 102
         height: 32
       isBreakpoint: 0
@@ -2115,6 +2115,106 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000
         paramByteDataSize: 00000000000000000000000001000000
+    - name: get prefs
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 431
+        y: 113
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: send event
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.PlayerPrefsGetInt
+        - HutongGames.PlayMaker.Actions.PlayerPrefsGetFloat
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: e2703a04d901ca04
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Points
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Time
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: NewGlobalCountdownScore
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 1
+          name: newGlobalPoints
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 01000000010000000100000001000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmInt
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmFloat
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0c000000120000000c000000100000000c000000120000000c0000000f000000
+        paramName:
+        - keys
+        - 
+        - variables
+        - 
+        - keys
+        - 
+        - variables
+        - 
+        paramDataPos: 0000000000000000010000000000000002000000010000000300000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2702,12 +2802,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Pieces removed
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: 12
+          value: 11
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -2971,6 +3071,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: Pieces removed
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 13
       boolVariables: []
       stringVariables: []
       vector2Variables: []
@@ -2986,7 +3092,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -3001,7 +3107,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 3
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
