@@ -17,16 +17,16 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 11400000}
     name: Reset
-    startState: State 1
+    startState: Reset scores
     states:
-    - name: State 1
+    - name: Reset scores
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 50
         y: 100
-        width: 100
+        width: 114
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -34,13 +34,17 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.ArrayClear
+        - HutongGames.PlayMaker.Actions.ArrayRemoveAll
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 978a9b03
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000100000004000000
+        actionHashCodes: d7d67900603dd9059845b305
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -52,31 +56,7 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams: []
         fsmObjectParams: []
-        fsmVarParams:
-        - variableName: 
-          objectType: 
-          useVariable: 1
-          type: 3
-          floatValue: 0
-          intValue: 0
-          boolValue: 0
-          stringValue: 
-          vector4Value: {x: 0, y: 0, z: 0, w: 0}
-          objectReference: {fileID: 0}
-          arrayValue:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: 
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
+        fsmVarParams: []
         fsmArrayParams:
         - useVariable: 1
           name: eaten island pieces
@@ -92,8 +72,32 @@ MonoBehaviour:
           vector4Values: []
           objectReferences: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: Countdown timer
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 1
+          name: Global points
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -101,17 +105,22 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2900000027000000
+        paramDataType: 290000001000000010000000010000000f0000000f00000001000000
         paramName:
         - array
-        - resetValue
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000000000000
+        - intVariable
+        - intValue
+        - everyFrame
+        - floatVariable
+        - floatValue
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000001000000000000000000000001000000
     events: []
     globalTransitions: []
     variables:
