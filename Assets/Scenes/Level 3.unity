@@ -1698,12 +1698,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.CountdownTimer
+        - HutongGames.PlayMaker.Actions.Wait
+        - HutongGames.PlayMaker.Actions.GetTimeInfo
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 7ce7c500
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: 7ce7c50048c0110157587501
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1737,6 +1741,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: TimePlayed
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -1746,20 +1762,27 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - times up
-        byteData: 01
+        - 
+        byteData: 01000700000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f00000017000000010000000f000000
+        paramDataType: 0f0000000f00000017000000010000000f0000000f0000001700000001000000070000000f00000001000000
         paramName:
         - time
         - stopOn
         - finishEvent
         - realTime
         - storeValue
-        paramDataPos: 0000000001000000000000000000000002000000
-        paramByteDataSize: 0000000000000000000000000100000000000000
+        - time
+        - finishEvent
+        - realTime
+        - getInfo
+        - storeValue
+        - everyFrame
+        paramDataPos: 0000000001000000000000000000000002000000030000000100000001000000020000000400000006000000
+        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000040000000000000001000000
     - name: stop game
       description: 
       colorIndex: 0
@@ -3722,7 +3745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 1
+  drawStateLabels: 0
   enableStateLabelsInBuilds: 0
   GUITextureStateLabels: 0
   GUITextStateLabels: 0
