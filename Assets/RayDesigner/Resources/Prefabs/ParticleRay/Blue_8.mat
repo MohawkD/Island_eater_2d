@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Blue_8
+  m_Shader: {fileID: 4800000, guid: 29e6e90629ddfff4e9e4eb232fe4a445, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distortion:
+        m_Texture: {fileID: 2800000, guid: e9f0f898ab862f2489aab08350b6d1cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 293.3986}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a8ec5fef717f0664eb3ed5f81a938eaf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 1dc9b3150b018a04f9ab938c817fe25b, type: 3}
+        m_Scale: {x: 2, y: 8}
+        m_Offset: {x: 0, y: 842.7516}
+    m_Floats:
+    - _AMP: 1
+    - _XFREQ: 1
+    - _YFREQ: 0.2
+    m_Colors:
+    - _TintColor: {r: 0, g: 0.2965517, b: 1, a: 1}
