@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7decf71d60cb2fe438b4d9a0a160a517, type: 3}
+  m_Name: SceneLoaderManager
+  m_EditorClassIdentifier: 
+  List:
+    array:
+    - SceneName: start scherm
+      SceneAsset: {fileID: 102900000, guid: edcf64a7596ff74499ec3c97986ac571, type: 3}
+      DisplayName: start scherm
+      Description: 
+      SkipType: 0
+      LoadingType: 1
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Level 1
+      SceneAsset: {fileID: 102900000, guid: 9235acd48f26b26459fd026cd5285bcc, type: 3}
+      DisplayName: Level 1
+      Description: 
+      SkipType: 0
+      LoadingType: 1
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Level 2
+      SceneAsset: {fileID: 102900000, guid: 36bf5983487901a429a37a05ed4b17c0, type: 3}
+      DisplayName: Level 2
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Level 3
+      SceneAsset: {fileID: 102900000, guid: 7789696ede8618d459ce5114d3bce52f, type: 3}
+      DisplayName: Level 3
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Final Level
+      SceneAsset: {fileID: 102900000, guid: 564057b62784c214b9798bae2060692a, type: 3}
+      DisplayName: Final Level
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+  TipList:
+    array:
+    - Create beutifull loading screens for improved your game
+    - Easy to use and implement
+    - remember that have 3 diferent styles for select.
+    - Create how much Tips as you want
+    - Improved the look of your game with awasome backgrounds.
+    - A good background sound increase the motivation of players.
+    - remember that have 3 diferent styles for select.
