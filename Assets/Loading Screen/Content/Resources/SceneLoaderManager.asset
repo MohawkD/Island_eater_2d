@@ -20,18 +20,18 @@ MonoBehaviour:
       Description: 
       SkipType: 0
       LoadingType: 1
-      FakeLoadingTime: 2
+      FakeLoadingTime: 3
       Backgrounds: []
     - SceneName: Level 1
-      SceneAsset: {fileID: 102900000, guid: 9235acd48f26b26459fd026cd5285bcc, type: 3}
+      SceneAsset: {fileID: 102900000, guid: a8f8e91864d4c09489a90a1e76a2c88f, type: 3}
       DisplayName: Level 1
       Description: 
-      SkipType: 0
+      SkipType: 3
       LoadingType: 1
       FakeLoadingTime: 2
       Backgrounds: []
     - SceneName: Level 2
-      SceneAsset: {fileID: 102900000, guid: 36bf5983487901a429a37a05ed4b17c0, type: 3}
+      SceneAsset: {fileID: 102900000, guid: 093a144570dc8df42a001c8bf76a26a1, type: 3}
       DisplayName: Level 2
       Description: 
       SkipType: 3
@@ -39,16 +39,64 @@ MonoBehaviour:
       FakeLoadingTime: 2
       Backgrounds: []
     - SceneName: Level 3
-      SceneAsset: {fileID: 102900000, guid: 7789696ede8618d459ce5114d3bce52f, type: 3}
+      SceneAsset: {fileID: 102900000, guid: b6a03d4e8baa56b43a369d35e0b853c3, type: 3}
       DisplayName: Level 3
       Description: 
       SkipType: 3
       LoadingType: 0
       FakeLoadingTime: 2
       Backgrounds: []
+    - SceneName: Level 4
+      SceneAsset: {fileID: 102900000, guid: 1330d9135c1c8fd48bcabf9f7d4be805, type: 3}
+      DisplayName: Level 4
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Level 5
+      SceneAsset: {fileID: 102900000, guid: b02b9df70e46151408b2aa93be166c7f, type: 3}
+      DisplayName: Level 5
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Level 6
+      SceneAsset: {fileID: 102900000, guid: 26587dd7f92f0d243a27dacc83375e40, type: 3}
+      DisplayName: Level 6
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
     - SceneName: Final Level
-      SceneAsset: {fileID: 102900000, guid: 564057b62784c214b9798bae2060692a, type: 3}
+      SceneAsset: {fileID: 102900000, guid: 773d4bba03947dd4991504da2f4c239b, type: 3}
       DisplayName: Final Level
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Tutorial Level 1
+      SceneAsset: {fileID: 102900000, guid: f5281391bcd2d7a4ea4aa504a96e7c73, type: 3}
+      DisplayName: Tutorial Level 1
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Tutorial Level 2
+      SceneAsset: {fileID: 102900000, guid: 85798e774c05e0842bd41b17b174d565, type: 3}
+      DisplayName: Tutorial Level 2
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: Tutorial Final Level
+      SceneAsset: {fileID: 102900000, guid: a8461acf9f1815d4298ac9ac56bce089, type: 3}
+      DisplayName: Tutorial Final Level
       Description: 
       SkipType: 3
       LoadingType: 0
