@@ -204,7 +204,7 @@ PrefabInstance:
     - target: {fileID: 8535231592989121081, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8535231592989121081, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
@@ -219,7 +219,7 @@ PrefabInstance:
     - target: {fileID: 8535231592989121081, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8535231592989121081, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
@@ -252,6 +252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535231592989121081, guid: ec5e9446c07c19e4b890b6006fcc660d,
+        type: 3}
+      propertyPath: m_text
+      value: Final score
       objectReference: {fileID: 0}
     - target: {fileID: 8535231592989121082, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
@@ -363,22 +368,42 @@ PrefabInstance:
     - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
+        type: 3}
+      propertyPath: m_fontColor.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.36078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.5568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535231593868688326, guid: ec5e9446c07c19e4b890b6006fcc660d,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4287519744
       objectReference: {fileID: 0}
     - target: {fileID: 8535231593868688328, guid: ec5e9446c07c19e4b890b6006fcc660d,
         type: 3}
@@ -5312,8 +5337,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
-    m_PressedColor: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 1}
+    m_HighlightedColor: {r: 0, g: 0.36078432, b: 0.5568628, a: 1}
+    m_PressedColor: {r: 0, g: 0.36078432, b: 0.5568628, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
