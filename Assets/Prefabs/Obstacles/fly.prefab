@@ -27,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568936505767942429}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.6180602, y: -1.0646722, z: 0.48495135}
-  m_LocalScale: {x: 1.7308973, y: 1.7308973, z: 1.7308973}
+  m_LocalScale: {x: 1.7897478, y: 1.9057178, z: 1.7308973}
   m_Children:
   - {fileID: 7239293848627629651}
   m_Father: {fileID: 0}
@@ -100,7 +100,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.3
 --- !u!114 &1568936505767942425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SendEvent
         customNames:
         - 
-        actionEnabled: 01
+        actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 5e69bb04
@@ -378,7 +378,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
