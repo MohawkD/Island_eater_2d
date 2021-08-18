@@ -12585,9 +12585,9 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 476
-        y: 109
-        width: 107
+        x: 484
+        y: 336.08594
+        width: 101
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -12709,7 +12709,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 647
-        y: 120
+        y: 104
         width: 104
         height: 16
       isBreakpoint: 0
@@ -12835,7 +12835,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 72
-        y: 129
+        y: 113
         width: 100
         height: 48
       isBreakpoint: 0
@@ -12940,7 +12940,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 286
-        y: 133
+        y: 117
         width: 102
         height: 48
       isBreakpoint: 0
@@ -12948,18 +12948,18 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Time is over
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      - fsmEvent:
           name: continue
           isSystemEvent: 0
           isGlobal: 0
         toState: + 1 to time
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: less
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Int Compare 2
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -13010,12 +13010,12 @@ MonoBehaviour:
           showInInspector: 1
           networkSync: 0
           value: 100
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Time for sound
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 6
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -13029,8 +13029,8 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
-        - FINISHED
+        - less
+        - less
         - continue
         byteData: 00
         arrayParamSizes: 
@@ -13056,7 +13056,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 59
-        y: 224.01562
+        y: 208.01562
         width: 114
         height: 32
       isBreakpoint: 0
@@ -13116,7 +13116,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 289
-        y: 210
+        y: 194
         width: 100
         height: 32
       isBreakpoint: 0
@@ -13192,8 +13192,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 475
-        y: 182
+        x: 491
+        y: 387.08594
         width: 100
         height: 16
       isBreakpoint: 0
@@ -13344,6 +13344,424 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 000000000000000000000000010000000100000002000000030000000000000001000000020000000000000000000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000001000000000000000000000000000000
+    - name: Wait 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 63.5
+        y: 296.0625
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Int Compare 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: pause
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: Pause state 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        - HutongGames.PlayMaker.Actions.setTextmeshProUGUIText
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 48c01101e9f73304
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 130743367}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: Time
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000140000001200000011000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        - gameObject
+        - textString
+        - everyFrame
+        paramDataPos: 000000000000000000000000000000000000000000000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000
+    - name: Int Compare 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 277.5
+        y: 300.0625
+        width: 112
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: play die sound
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: continue
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: + 1 to time 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntCompare
+        - HutongGames.PlayMaker.Actions.setTextmeshProUGUIText
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000006000000
+        actionHashCodes: 09faa102e9f73304
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 130743367}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: Time
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Time
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 100
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - FINISHED
+        - FINISHED
+        - continue
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000017000000170000001700000001000000140000001200000011000000
+        paramName:
+        - integer1
+        - integer2
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        - gameObject
+        - textString
+        - everyFrame
+        paramDataPos: 000000000100000000000000010000000200000000000000000000000000000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000000000000000000000000000
+    - name: Pause state 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50.5
+        y: 391.07812
+        width: 114
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Continue Time
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: Wait 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    - name: + 1 to time 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 280.5
+        y: 377.0625
+        width: 101
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Wait 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntAdd
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: Time
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 100
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: -1
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - add
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
+    - name: play die sound
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 477
+        y: 282
+        width: 115
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Time is over
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -13355,6 +13773,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 1
     - name: continue
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: less
       isSystemEvent: 0
       isGlobal: 0
     - name: pause
@@ -13376,7 +13797,7 @@ MonoBehaviour:
         name: Hit by enemy
         isSystemEvent: 0
         isGlobal: 1
-      toState: Time is over
+      toState: play die sound
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -13413,6 +13834,12 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: 100
+      - useVariable: 1
+        name: Time for sound
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 6
       boolVariables: []
       stringVariables: []
       vector2Variables: []
@@ -13428,7 +13855,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
