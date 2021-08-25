@@ -5656,7 +5656,7 @@ MonoBehaviour:
           name: greater
           isSystemEvent: 0
           isGlobal: 0
-        toState: add points
+        toState: State 2
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -5664,7 +5664,7 @@ MonoBehaviour:
           name: less
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: add points
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -5694,17 +5694,17 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: ice cube count
+          name: ice cube hit count
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 2
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -5919,11 +5919,11 @@ MonoBehaviour:
           value: 0.5
         fsmIntParams:
         - useVariable: 1
-          name: ice cube count
+          name: ice cube hit count
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 2
         - useVariable: 0
           name: 
           tooltip: 
@@ -5976,11 +5976,11 @@ MonoBehaviour:
       floatVariables: []
       intVariables:
       - useVariable: 1
-        name: ice cube count
+        name: ice cube hit count
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
-        value: 0
+        value: 2
       boolVariables: []
       stringVariables: []
       vector2Variables: []
