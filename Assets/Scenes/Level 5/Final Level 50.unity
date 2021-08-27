@@ -3554,6 +3554,90 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 867664608}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &913645283
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1483782428}
+    m_Modifications:
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.48495135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227611, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: targetType
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227611, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: endValueV3.x
+      value: -2.2580602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227611, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: endValueV3.y
+      value: 2.1679463
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662520180445227613, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+        type: 3}
+      propertyPath: m_Name
+      value: fly moving vertical (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34d58e097aeab094ea836a07cf7f7a0a, type: 3}
 --- !u!1 &985081840
 GameObject:
   m_ObjectHideFlags: 0
@@ -5881,6 +5965,7 @@ Transform:
   - {fileID: 851184259}
   - {fileID: 2411116961770527181}
   - {fileID: 803214596}
+  - {fileID: 1592489619}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6585,6 +6670,12 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
+--- !u!4 &1592489619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6662520180445227610, guid: 34d58e097aeab094ea836a07cf7f7a0a,
+    type: 3}
+  m_PrefabInstance: {fileID: 913645283}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1638745553
 GameObject:
   m_ObjectHideFlags: 0
@@ -11946,7 +12037,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 25
+        value: 20
       - useVariable: 1
         name: level index
         tooltip: 
@@ -13362,7 +13453,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 15
+        value: 18
       - useVariable: 1
         name: time for sound
         tooltip: 
@@ -15260,12 +15351,12 @@ PrefabInstance:
     - target: {fileID: 6078132538628204454, guid: 08218d2ca3d47304faeef51772204cdf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.52
+      value: -2.26
       objectReference: {fileID: 0}
     - target: {fileID: 6078132538628204454, guid: 08218d2ca3d47304faeef51772204cdf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.15
+      value: 4.24
       objectReference: {fileID: 0}
     - target: {fileID: 6078132538628204454, guid: 08218d2ca3d47304faeef51772204cdf,
         type: 3}
