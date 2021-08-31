@@ -7859,6 +7859,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1440851862}
     m_Modifications:
+    - target: {fileID: 667273215606304199, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 667273215606304199, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 667273215606304199, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 667273215606304199, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 667273215606304199, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2713466839737692416, guid: 388efee40208d9848aabb0496a4656da,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7968,6 +7993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game over Panel rietje
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713466839737692417, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 388efee40208d9848aabb0496a4656da, type: 3}
@@ -12121,7 +12151,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 1930211977}
+            value: {fileID: 1260491646}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -12129,7 +12159,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 995369692}
+            value: {fileID: 1281319425}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []

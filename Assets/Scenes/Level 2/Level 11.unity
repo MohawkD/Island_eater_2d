@@ -12982,7 +12982,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 496.79688
         y: 296.67188
-        width: 116
+        width: 126
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -13084,6 +13084,9 @@ MonoBehaviour:
     - name: less
       isSystemEvent: 0
       isGlobal: 0
+    - name: lose screen time
+      isSystemEvent: 0
+      isGlobal: 1
     - name: pause
       isSystemEvent: 0
       isGlobal: 1
@@ -13100,7 +13103,7 @@ MonoBehaviour:
       linkConstraint: 0
       colorIndex: 0
     - fsmEvent:
-        name: Hit by enemy
+        name: lose screen time
         isSystemEvent: 0
         isGlobal: 1
       toState: play Die sound
