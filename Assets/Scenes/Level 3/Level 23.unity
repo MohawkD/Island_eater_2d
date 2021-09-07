@@ -2870,6 +2870,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game over Panel time
       objectReference: {fileID: 0}
+    - target: {fileID: 8488687806274766278, guid: fb70d21439c0d7a4eae08ceb93c729be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb70d21439c0d7a4eae08ceb93c729be, type: 3}
 --- !u!224 &640101070 stripped
@@ -2903,10 +2908,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1440851862}
     m_Modifications:
+    - target: {fileID: 2749812133045577360, guid: 95732c7dd203af04b88c213b4aafc29b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -26
+      objectReference: {fileID: 0}
     - target: {fileID: 8125351497274848221, guid: 95732c7dd203af04b88c213b4aafc29b,
         type: 3}
       propertyPath: m_Name
       value: Highscore Panel normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125351497274848221, guid: 95732c7dd203af04b88c213b4aafc29b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8125351497274848222, guid: 95732c7dd203af04b88c213b4aafc29b,
         type: 3}
@@ -3012,6 +3027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125351498488410938, guid: 95732c7dd203af04b88c213b4aafc29b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 230.00003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95732c7dd203af04b88c213b4aafc29b, type: 3}
@@ -4815,6 +4835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game over Panel rietje
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713466839737692417, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 388efee40208d9848aabb0496a4656da, type: 3}

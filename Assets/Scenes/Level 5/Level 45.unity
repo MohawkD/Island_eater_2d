@@ -505,7 +505,7 @@ RectTransform:
   - {fileID: 1424299241}
   - {fileID: 1663640942}
   m_Father: {fileID: 1440851862}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4790,10 +4790,10 @@ RectTransform:
   - {fileID: 533109610}
   - {fileID: 6033220350951316945}
   - {fileID: 208132226}
+  - {fileID: 78509964}
   - {fileID: 508776054}
   - {fileID: 1977985871}
   - {fileID: 1570840829}
-  - {fileID: 78509964}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5545,6 +5545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game over Panel time
+      objectReference: {fileID: 0}
+    - target: {fileID: 8488687806274766278, guid: fb70d21439c0d7a4eae08ceb93c729be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb70d21439c0d7a4eae08ceb93c729be, type: 3}
@@ -8725,6 +8730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game over Panel rietje
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713466839737692417, guid: 388efee40208d9848aabb0496a4656da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 388efee40208d9848aabb0496a4656da, type: 3}
