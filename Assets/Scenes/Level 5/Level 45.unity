@@ -1262,6 +1262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Highscore Panel normal
       objectReference: {fileID: 0}
+    - target: {fileID: 8125351497274848221, guid: 95732c7dd203af04b88c213b4aafc29b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8125351497274848222, guid: 95732c7dd203af04b88c213b4aafc29b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14554,7 +14559,7 @@ PrefabInstance:
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
       value: 
-      objectReference: {fileID: 2090697292}
+      objectReference: {fileID: 0}
     - target: {fileID: 1568936505767942425, guid: 656f2f6eb0d7b9b45baa63aa79ae4be2,
         type: 3}
       propertyPath: fsm.states.Array.data[2].actionData.fsmEventTargetParams.Array.data[0].gameObject.gameObject.value
@@ -14563,7 +14568,7 @@ PrefabInstance:
     - target: {fileID: 1568936505767942425, guid: 656f2f6eb0d7b9b45baa63aa79ae4be2,
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.actionEnabled.Array.data[0]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1568936505767942429, guid: 656f2f6eb0d7b9b45baa63aa79ae4be2,
         type: 3}

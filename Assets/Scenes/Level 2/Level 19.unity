@@ -2863,6 +2863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Highscore Panel normal
       objectReference: {fileID: 0}
+    - target: {fileID: 8125351497274848221, guid: 95732c7dd203af04b88c213b4aafc29b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8125351497274848222, guid: 95732c7dd203af04b88c213b4aafc29b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11461,8 +11466,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 647
-        y: 104
+        x: 659
+        y: 279
         width: 104
         height: 16
       isBreakpoint: 0
@@ -11945,8 +11950,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 491
-        y: 387.08594
+        x: 480
+        y: 406.08594
         width: 100
         height: 16
       isBreakpoint: 0
@@ -11984,7 +11989,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 1930211977}
+            value: {fileID: 1158668252}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -11992,7 +11997,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 995369692}
+            value: {fileID: 1158668251}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -12462,7 +12467,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 477
         y: 282
-        width: 115
+        width: 126
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -12564,6 +12569,9 @@ MonoBehaviour:
     - name: less
       isSystemEvent: 0
       isGlobal: 0
+    - name: lose screen time
+      isSystemEvent: 0
+      isGlobal: 1
     - name: pause
       isSystemEvent: 0
       isGlobal: 1
@@ -12580,7 +12588,7 @@ MonoBehaviour:
       linkConstraint: 0
       colorIndex: 0
     - fsmEvent:
-        name: Hit by enemy
+        name: lose screen time
         isSystemEvent: 0
         isGlobal: 1
       toState: play die sound
