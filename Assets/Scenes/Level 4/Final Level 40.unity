@@ -241,7 +241,7 @@ RectTransform:
   - {fileID: 1424299241}
   - {fileID: 1663640942}
   m_Father: {fileID: 1440851862}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1630,7 +1630,7 @@ PrefabInstance:
     - target: {fileID: 8488687806274766277, guid: fb70d21439c0d7a4eae08ceb93c729be,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8488687806274766277, guid: fb70d21439c0d7a4eae08ceb93c729be,
         type: 3}
@@ -3329,7 +3329,7 @@ PrefabInstance:
     - target: {fileID: 3694054669472536573, guid: 704a4aec6a7eb1d4dbc76dbb0490d1cc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3694054669472536573, guid: 704a4aec6a7eb1d4dbc76dbb0490d1cc,
         type: 3}
@@ -3606,7 +3606,7 @@ GameObject:
   - component: {fileID: 1027339870}
   - component: {fileID: 1027339869}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Score time lvl panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3667,7 +3667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4780,11 +4780,11 @@ RectTransform:
   - {fileID: 1027339868}
   - {fileID: 533109610}
   - {fileID: 1447143836}
+  - {fileID: 1930211978}
+  - {fileID: 78509964}
   - {fileID: 1159954073}
   - {fileID: 152657267}
   - {fileID: 531861687}
-  - {fileID: 1930211978}
-  - {fileID: 78509964}
   - {fileID: 1766135398}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -9395,7 +9395,7 @@ PrefabInstance:
     - target: {fileID: 2026618057223452122, guid: 826e909cf2d5e5743a2e4ad9c1ceab80,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2026618057223452122, guid: 826e909cf2d5e5743a2e4ad9c1ceab80,
         type: 3}
@@ -9997,7 +9997,7 @@ PrefabInstance:
     - target: {fileID: 2713466839737692416, guid: 388efee40208d9848aabb0496a4656da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2713466839737692416, guid: 388efee40208d9848aabb0496a4656da,
         type: 3}
@@ -10333,7 +10333,7 @@ RectTransform:
   - {fileID: 569487747}
   - {fileID: 1729392416}
   m_Father: {fileID: 1440851862}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

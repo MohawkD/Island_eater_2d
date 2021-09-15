@@ -1760,7 +1760,7 @@ RectTransform:
   - {fileID: 792642373}
   - {fileID: 1717768063}
   m_Father: {fileID: 1440851862}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4742,12 +4742,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1578092996}
-  - {fileID: 1543736523}
-  - {fileID: 1951696144}
-  - {fileID: 546090239}
   - {fileID: 533109610}
   - {fileID: 1447143836}
   - {fileID: 1930211978}
+  - {fileID: 1543736523}
+  - {fileID: 1951696144}
+  - {fileID: 546090239}
   - {fileID: 78509964}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -4914,7 +4914,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1440851862}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -6252,7 +6252,7 @@ GameObject:
   - component: {fileID: 1578092998}
   - component: {fileID: 1578092997}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Score time lvl panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6313,7 +6313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9645,7 +9645,7 @@ RectTransform:
   - {fileID: 569487747}
   - {fileID: 1729392416}
   m_Father: {fileID: 1440851862}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
