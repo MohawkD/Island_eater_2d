@@ -1376,6 +1376,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8125351498483358798, guid: 95732c7dd203af04b88c213b4aafc29b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 182.26953
+      objectReference: {fileID: 0}
     - target: {fileID: 8125351498488410939, guid: 95732c7dd203af04b88c213b4aafc29b,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -3481,7 +3486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 182.27}
+  m_AnchoredPosition: {x: 0, y: 182.26953}
   m_SizeDelta: {x: 393.6, y: 101.1}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &995369695
@@ -4905,7 +4910,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280745166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.17, y: 5.34, z: -4.581217}
+  m_LocalPosition: {x: 3.25, y: 5.34, z: -4.581217}
   m_LocalScale: {x: 1, y: 1.125, z: 1}
   m_Children: []
   m_Father: {fileID: 353781896}
@@ -11132,6 +11137,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8488687807486367122, guid: fb70d21439c0d7a4eae08ceb93c729be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 182.26953
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb70d21439c0d7a4eae08ceb93c729be, type: 3}
 --- !u!224 &1993769689 stripped
@@ -11188,7 +11198,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 182.27}
+  m_AnchoredPosition: {x: 0, y: 182.26953}
   m_SizeDelta: {x: 320.4, y: 96.400024}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2044245804
