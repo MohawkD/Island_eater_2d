@@ -24,7 +24,7 @@ MonoBehaviour:
     m_ShareTitle: Share the screenshot
     m_ShareSubject: Nice screenshot
     m_ShareText: Look at this nice screenshot.
-    m_CaptureMode: 2
+    m_CaptureMode: 0
     m_MultisamplingAntiAliasing: 8
     m_ColorFormat: 0
     m_RecomputeAlphaLayer: 0
@@ -77,8 +77,8 @@ MonoBehaviour:
     m_PreviewSize: 1
     m_PreviewInGameViewWhilePlaying: 0
     m_DontDestroyOnLoad: 1
-    m_StopTimeOnCapture: 1
-    m_PlaySoundOnCapture: 1
+    m_StopTimeOnCapture: 0
+    m_PlaySoundOnCapture: 0
     m_ShotSound: {fileID: 0}
     m_CaptureHotkey:
       m_Shift: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_GalleryBorderSize: 2
   m_Selected: 0
   m_PreviewGalleryZoom: 1
-  m_PreviewZoom: 1
+  m_PreviewZoom: 0.05
   m_RefreshMode: 0
   m_AutoRefresh: 0
   m_RefreshDelay: 4
