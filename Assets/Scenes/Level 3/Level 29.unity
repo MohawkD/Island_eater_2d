@@ -7491,7 +7491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 1
+  drawStateLabels: 0
   enableStateLabelsInBuilds: 0
   GUITextureStateLabels: 0
   GUITextStateLabels: 0
@@ -10279,10 +10279,10 @@ MonoBehaviour:
   GuiLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  RecordFingers: 1
+  RecordFingers: 0
   RecordThreshold: 5
   RecordLimit: 5
-  SimulateMultiFingers: 1
+  SimulateMultiFingers: 0
   PinchTwistKey: 306
   MovePivotKey: 308
   MultiDragKey: 308
