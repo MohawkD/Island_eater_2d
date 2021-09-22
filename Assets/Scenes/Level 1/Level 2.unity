@@ -930,12 +930,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1787592210}
-  m_RootOrder: 2
+  m_Father: {fileID: 248346895}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: 723.07025}
+  m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130743369
@@ -2086,13 +2086,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 130743368}
+  - {fileID: 607321766}
   m_Father: {fileID: 1787592210}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -29.789673, y: -45.370117}
+  m_AnchoredPosition: {x: -30, y: -38}
   m_SizeDelta: {x: 130, y: 62}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &248346896
@@ -3458,16 +3460,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607321765}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5726137, y: 0.65850574, z: 0.5726137}
+  m_LocalScale: {x: 0.5726138, y: 0.6585058, z: 0.5726138}
   m_Children: []
-  m_Father: {fileID: 1787592210}
-  m_RootOrder: 3
+  m_Father: {fileID: 248346895}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190.7, y: 727}
+  m_AnchoredPosition: {x: -115, y: 5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607321767
@@ -7844,7 +7846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.3, y: -8.2}
+  m_AnchoredPosition: {x: 0, y: -9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1685824870
@@ -9176,8 +9178,6 @@ RectTransform:
   m_Children:
   - {fileID: 2094553271}
   - {fileID: 248346895}
-  - {fileID: 130743368}
-  - {fileID: 607321766}
   m_Father: {fileID: 1440851862}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12594,7 +12594,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 30
+        value: 50
       - useVariable: 1
         name: Time for Sound
         tooltip: 
@@ -14251,8 +14251,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -254.39998, y: 731.0999}
-  m_SizeDelta: {x: 208.065, y: 76.843}
+  m_AnchoredPosition: {x: -260, y: 730}
+  m_SizeDelta: {x: 208, y: 76.843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2094553272
 MonoBehaviour:
